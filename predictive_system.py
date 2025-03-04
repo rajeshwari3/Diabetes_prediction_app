@@ -9,7 +9,7 @@ import pickle
 
 #loading the saved model
 
-loaded_model=pickle.load(open('D:/Model_deploy/trained_model.sav','rb'))
+loaded_model=pickle.load(open('trained_model.sav','rb'))
 
 input_data=(10,168,74,0,0,38,0.537,34)   #it is a list so we need to change it into numpy array
 
